@@ -2,7 +2,7 @@
 lock "3.7.2"
 
 set :application, "mixtint"
-set :repo_url, "git@github.com:shin-ruby/mixtint.git"
+set :repo_url, "https://github.com/shin-ruby/mixtint.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
