@@ -4,6 +4,8 @@ lock "3.7.2"
 set :application, "mixtint"
 set :repo_url, "https://github.com/shin-ruby/mixtint.git"
 
+set :passenger_restart_with_touch, true
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
